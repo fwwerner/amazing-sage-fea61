@@ -16,6 +16,7 @@ export default class Body extends React.Component {
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="google" content="notranslate" />
+                    <meta name="google-site-verification" content="BCEm3F9x8S4u4xkjwZFux_jFdTubNeGGM5GpKMLTqbI" />
                     <meta name="description" content={_.get(this.props, 'page.seo.description', null) || ''} />
                     {_.get(this.props, 'page.seo.robots', null) && (
                     <meta name="robots" content={_.join(_.get(this.props, 'page.seo.robots', null), ',')}/>
